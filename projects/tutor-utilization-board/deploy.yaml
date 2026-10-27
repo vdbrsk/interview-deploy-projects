@@ -1,0 +1,6 @@
+name: tutor-utilization-board
+type: api
+runtime: python3
+cube: true
+auth: true
+schedule: "50 5 * * *"

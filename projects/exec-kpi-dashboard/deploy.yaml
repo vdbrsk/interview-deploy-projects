@@ -1,0 +1,6 @@
+name: exec-kpi-dashboard
+type: api
+runtime: python3
+cube: true
+auth: true
+schedule: "0 5 * * *"

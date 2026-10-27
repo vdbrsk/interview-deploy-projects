@@ -1,0 +1,6 @@
+name: demo-showup-analysis
+type: api
+runtime: python3
+auth: true
+env:
+  BQ_PROJECT: kestrel-analytics-demo

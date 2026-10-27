@@ -1,0 +1,8 @@
+name: finance-monthly-export
+type: api
+runtime: python3
+auth: true
+schedule: "0 7 2 * *"
+env:
+  BQ_PROJECT: kestrel-analytics-demo
+  EXPORT_BUCKET: kestrel-finance-exports-demo

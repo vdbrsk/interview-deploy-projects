@@ -1,0 +1,7 @@
+name: ai-sql-analyst
+type: api
+runtime: python3
+anthropic: true
+auth: true
+env:
+  BQ_PROJECT: kestrel-analytics-demo

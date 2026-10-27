@@ -1,0 +1,9 @@
+name: churn-risk-worklist
+type: api
+runtime: python3
+auth: true
+schedule: "20 9 * * 1-5"
+secrets:
+  - CRM_WEBHOOK_URL
+env:
+  BQ_PROJECT: kestrel-analytics-demo

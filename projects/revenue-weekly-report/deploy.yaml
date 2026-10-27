@@ -1,0 +1,9 @@
+name: revenue-weekly-report
+type: api
+runtime: python3
+auth: true
+schedule: "30 6 * * 1"
+secrets:
+  - SLACK_WEBHOOK_URL
+env:
+  BQ_PROJECT: kestrel-analytics-demo

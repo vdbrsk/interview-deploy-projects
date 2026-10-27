@@ -1,0 +1,11 @@
+name: daily-kpi-alerts
+type: api
+runtime: python3
+cube: true
+auth: true
+schedule: "10 8 * * *"
+secrets:
+  - SLACK_WEBHOOK_URL
+env:
+  REVENUE_DROP_THRESHOLD: "0.25"
+  SHOWUP_FLOOR: "0.6"

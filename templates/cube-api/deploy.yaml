@@ -1,0 +1,5 @@
+name: my-cube-app
+type: api
+runtime: python3
+cube: true
+auth: true

@@ -1,0 +1,7 @@
+name: retention-cohort-report
+type: api
+runtime: python3
+auth: true
+schedule: "15 7 * * 1"
+env:
+  BQ_PROJECT: kestrel-analytics-demo

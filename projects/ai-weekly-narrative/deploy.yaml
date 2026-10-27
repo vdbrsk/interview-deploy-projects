@@ -1,0 +1,9 @@
+name: ai-weekly-narrative
+type: api
+runtime: python3
+cube: true
+anthropic: true
+auth: true
+schedule: "45 7 * * 1"
+secrets:
+  - SLACK_WEBHOOK_URL
